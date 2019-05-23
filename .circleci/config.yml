@@ -30,3 +30,7 @@ jobs:
 
       # run tests!
       - run: yarn jest --collectCoverage
+      
+      - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/ 
+          path: coverage
+          prefix: coverage
