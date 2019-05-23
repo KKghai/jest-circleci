@@ -4,7 +4,7 @@
   "description": "Unit testing and continuous integration",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --collectCoverage:true"
   },
   "keywords": [
     "jest",
