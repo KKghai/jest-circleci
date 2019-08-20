@@ -1,4 +1,4 @@
-{
+{{
   "name": "jest-circleci",
   "version": "1.0.0",
   "description": "Unit testing and continuous integration",
